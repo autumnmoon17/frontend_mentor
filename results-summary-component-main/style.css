@@ -5,13 +5,104 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 22px;
+    /* padding: 10%; */
+    height: 100vh;
+    justify-content: space-evenly;
+    margin: 0;
 }
 
 .container {
     display: flex;
+    margin: 10% auto;
+    justify-content: space-evenly;
+    height: 60%;
+    flex: 1;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+
+.left {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    max-width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 32px;
+    padding: 20px 0 0px 0;
+}
+.score {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    margin: 20px 0;
+}
+
+.header {
+    font-size: 24px;
+    color: hsl(241, 100%, 89%);
+    margin: 20px;
+}
+
+.score_text {
+    text-align: center;
+}
+
+.main_score {
+    color: hsl(0, 0%, 100%);
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.outof {
+    display: block;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+}
+
+.great{
+    font-size: 32px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    margin: 20px;
+
+}
+
+.caption {
+    font-size: 18px;
+    max-width: 70%;
+    color: hsl(241, 100%, 89%);
 }
 
 
+.right {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.summary {
+    align-self: flex-start;
+    /* margin: 0px 0px 10px 0px;
+    padding: 0px 0px 140px 0px; */
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.items div {
+    display: flex;
+}
 
 .attribution { 
     font-size: 18px; 
@@ -19,4 +110,8 @@ body {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-    }
+}
+
+/* .footer {
+    align-self: flex-start;
+} */
