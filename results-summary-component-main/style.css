@@ -82,7 +82,7 @@ body {
 
 
 .right {
-    max-width: 50%;
+    min-width: 35%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -102,6 +102,19 @@ body {
 
 .items div {
     display: flex;
+}
+
+.reaction {
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+img {
+    margin-right: 8px;
 }
 
 .attribution { 
