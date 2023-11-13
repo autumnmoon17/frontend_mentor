@@ -35,7 +35,8 @@ body {
     text-align: center;
     box-sizing: border-box;
     border-radius: 32px;
-    padding: 20px 0 0px 0;
+    padding: 20px 0px 0px 0px;
+    padding-bottom: 20px;
 }
 .score {
     width: 200px;
